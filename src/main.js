@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import Vuex from 'vuex';
 import VueResource from 'vue-resource';
 import App from './App';
 import goods from 'components/goods/goods';
@@ -10,6 +11,7 @@ import 'common/stylus/index.styl';
 
 Vue.use(VueRouter);
 Vue.use(VueResource);
+Vue.use(Vuex);
 
 let router = new VueRouter({
   linkActiveClass: 'active',
