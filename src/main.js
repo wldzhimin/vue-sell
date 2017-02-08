@@ -5,7 +5,7 @@ import App from './App';
 import goods from 'components/goods/goods';
 import ratings from 'components/ratings/ratings';
 import seller from 'components/seller/seller';
-import store from './store'
+import store from './store';
 
 import 'common/stylus/index.styl';
 
@@ -27,5 +27,6 @@ new Vue({
   el: '#app',
   components: { App },
   router: router,
-  render: h => h('App')
+  render: h => h('App'),
+  store
 });
